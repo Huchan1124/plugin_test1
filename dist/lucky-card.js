@@ -100,7 +100,7 @@
         this.ctx.beginPath();
         this.ctx.fillStyle = '#FFFFFF';
         this.ctx.globalCompositeOperation = "destination-out";
-        this.ctx.arc(mouseX, mouseY, 10, 0, 2 * Math.PI);
+        this.ctx.arc(mouseX, mouseY, 30, 0, 2 * Math.PI);
         this.ctx.fill();
     };
 
